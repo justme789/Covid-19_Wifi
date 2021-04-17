@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#1D1726"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="304dp"
+        android:layout_height="326dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_coronavirus_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="157dp"
+        android:gravity="center"
+        android:text="COVID-19 Contact Tracing App"
+        android:textColor="#CDCDCD"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="#4E2C89"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:imeOptions="actionDone"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:textColorHint="#C6FFFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/register_butotn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
