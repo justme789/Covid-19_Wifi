@@ -1,4 +1,4 @@
-#COVID-19 Contact Tracing
+# COVID-19 Contact Tracing
 
 This is an android application that tracks and traces people without using their location. It uses WiFi access points to trilaterate users positions in realtion to each other to determine a contact.
 
